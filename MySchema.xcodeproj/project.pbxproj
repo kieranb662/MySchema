@@ -13,6 +13,11 @@
 		48590107248537AF00BC16CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48590106248537AF00BC16CF /* Assets.xcassets */; };
 		4859010A248537AF00BC16CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48590109248537AF00BC16CF /* Preview Assets.xcassets */; };
 		4859010D248537AF00BC16CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4859010B248537AF00BC16CF /* Main.storyboard */; };
+		48590116248537DD00BC16CF /* GraphQLObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48590115248537DD00BC16CF /* GraphQLObjects.swift */; };
+		485901182485385700BC16CF /* PickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485901172485385700BC16CF /* PickerField.swift */; };
+		4859011A2485399200BC16CF /* ArgumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485901192485399200BC16CF /* ArgumentView.swift */; };
+		4859011C248539F500BC16CF /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4859011B248539F500BC16CF /* FieldView.swift */; };
+		4859011E24853A4700BC16CF /* ObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4859011D24853A4700BC16CF /* ObjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		4859010C248537AF00BC16CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4859010E248537AF00BC16CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4859010F248537AF00BC16CF /* MySchema.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySchema.entitlements; sourceTree = "<group>"; };
+		48590115248537DD00BC16CF /* GraphQLObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLObjects.swift; sourceTree = "<group>"; };
+		485901172485385700BC16CF /* PickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerField.swift; sourceTree = "<group>"; };
+		485901192485399200BC16CF /* ArgumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentView.swift; sourceTree = "<group>"; };
+		4859011B248539F500BC16CF /* FieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
+		4859011D24853A4700BC16CF /* ObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 			children = (
 				48590100248537AD00BC16CF /* AppDelegate.swift */,
 				48590102248537AD00BC16CF /* Document.swift */,
+				48590115248537DD00BC16CF /* GraphQLObjects.swift */,
 				48590104248537AD00BC16CF /* ContentView.swift */,
+				485901172485385700BC16CF /* PickerField.swift */,
+				485901192485399200BC16CF /* ArgumentView.swift */,
+				4859011B248539F500BC16CF /* FieldView.swift */,
+				4859011D24853A4700BC16CF /* ObjectView.swift */,
 				48590106248537AF00BC16CF /* Assets.xcassets */,
 				4859010B248537AF00BC16CF /* Main.storyboard */,
 				4859010E248537AF00BC16CF /* Info.plist */,
@@ -148,9 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48590116248537DD00BC16CF /* GraphQLObjects.swift in Sources */,
 				48590103248537AD00BC16CF /* Document.swift in Sources */,
+				485901182485385700BC16CF /* PickerField.swift in Sources */,
 				48590101248537AD00BC16CF /* AppDelegate.swift in Sources */,
 				48590105248537AD00BC16CF /* ContentView.swift in Sources */,
+				4859011E24853A4700BC16CF /* ObjectView.swift in Sources */,
+				4859011A2485399200BC16CF /* ArgumentView.swift in Sources */,
+				4859011C248539F500BC16CF /* FieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
